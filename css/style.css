@@ -1,1 +1,138 @@
 
+
+
+section {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcorps {
+  background-image: url(../img/qijx.png);
+  width:130px;
+  height:465px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#epaule
+{ width: 50px;
+  height: 50px;
+  background: black;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  opacity:0.5;
+  margin-top: 85px;
+  margin-left: 5px;
+ }
+
+ #coude
+ { width: 50px;
+   height: 50px;
+   background: black;
+   -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+   border-radius: 50px;
+   opacity:0.5;
+   margin-top: 20px;
+   margin-left: 90px;
+  }
+
+  #poignet
+  { width: 50px;
+    height: 50px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    opacity:0.5;
+    margin-top: 0px;
+    margin-left: -10px;
+   }
+
+   #hanche
+   { width: 50px;
+     height: 50px;
+     background: black;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px;
+     opacity:0.5;
+     margin-top: -40px;
+     margin-left: 70px;
+    }
+
+    #genou
+    { width: 50px;
+      height: 50px;
+      background: black;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      opacity:0.5;
+      margin-top: 45px;
+      margin-left: 15px;
+     }
+
+     #cheville
+     { width: 50px;
+       height: 50px;
+       background: black;
+       -moz-border-radius: 50px;
+       -webkit-border-radius: 50px;
+       border-radius: 50px;
+       opacity:0.5;
+       margin-top: 40px;
+       margin-left: 55px;
+      }
+
+
+
+      #epaule:hover {
+        background:red;
+        opacity: 0.5;
+      }
+
+
+       #coude:hover {
+         background:red;
+         opacity: 0.5;
+       }
+
+
+        #poignet:hover {
+          background:red;
+          opacity: 0.5;
+        }
+
+
+         #hanche:hover {
+           background:red;
+           opacity: 0.5;
+         }
+
+
+          #genou:hover {
+            background:red;
+            opacity: 0.5;
+          }
+
+
+           #cheville:hover {
+             background:red;
+             opacity: 0.5;
+
+           }
+#texteepaule, #textecoude, #textepoignet, #textehanche, #textecheville, #textegenou  {
+  display: none;
+}
+.zonedetexte {
+  height: 465px;
+  width:180px;
+  margin-left: 25px;
+}
+#epaule:hover #texteepaule {
+  display: inline;
+}
